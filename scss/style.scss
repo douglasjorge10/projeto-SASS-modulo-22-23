@@ -1,0 +1,68 @@
+@import '_font.scss';
+*{
+    box-sizing: border-box;
+}
+$width-defaut:100%; 
+.corpo{
+    height: fit-content;
+    width: $width-defaut;
+    h1{
+        font-family: 'Poppins', sans-serif;        
+    }
+    h2{
+        font-family: 'Rubik Paint', cursive;
+    }
+    h1, h2{
+        display: inline-block;
+        width: $width-defaut;
+        text-align: center;
+    }
+}
+.cabecalho{
+    .baner figcaption{
+        font-size: 1.5em;
+        font-family: 'Alegreya SC', serif;  
+    }
+     .baner img{
+       width: $width-defaut; 
+    }
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: $width-defaut;
+    margin: 50px auto;
+    justify-content: space-between;
+    height: fit-content;
+
+    .card{
+        width: 300px;
+        height: fit-content;
+        margin: 10px;
+        img{
+            width: 300px;
+            height: 300px;
+        }
+        figcaption{
+                width: $width-defaut;
+                height: 80px;      
+                text-align: center;
+                font-family: 'Zilla Slab', serif;  
+            }
+        a{
+            display: block;
+            width: 50%;
+            margin: 0 auto;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            color: #000;
+            background-color: #bebebe;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        a:hover{
+            background-color: #e4dede;
+            
+        }
+    }
+}
