@@ -66,3 +66,13 @@ $width-defaut:100%;
         }
     }
 }
+/* mobile */
+@media(max-width: 767px){
+    .cabecalho .baner figcaption{
+      font-size: 1em;
+      text-align: justify;
+    }
+    .corpo h1{
+      font-size: 1.5em;
+    }
+  }
